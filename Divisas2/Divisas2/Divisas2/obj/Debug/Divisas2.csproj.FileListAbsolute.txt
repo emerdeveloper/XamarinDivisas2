@@ -1,0 +1,15 @@
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.csprojResolveAssemblyReference.cache
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.App.xaml.g.cs
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.Views.ForeingExchangePage.xaml.g.cs
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Divisas2.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Divisas2.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Core.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Platform.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Core.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Core.xml
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Xamarin.Forms.Xaml.xml
