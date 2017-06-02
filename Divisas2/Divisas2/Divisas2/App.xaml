@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:infra="clr-namespace:Divisas2.Infrastructure;assembly=Divisas2" 
              x:Class="Divisas2.App">
+    <!--With this of above binging the activity, page o view ForeingExchagePage.xaml -->
 	<Application.Resources>
-
+    <!--this is a dictionary of data-->
         <ResourceDictionary>
             <!-- Locator -->
+            <!-- this infra is a property that I created in lines of obove-->
+            <!--this key locator it reference in ForeingExchagePage.xaml-->
             <infra:InstanceLocator x:Key="Locator"/>
         </ResourceDictionary>
 
