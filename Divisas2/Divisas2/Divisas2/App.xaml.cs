@@ -5,11 +5,13 @@ using System.Text;
 using Divisas2.Views;
 
 using Xamarin.Forms;
+using Divisas2.Modals;
 
 namespace Divisas2
 {
     public partial class App : Application
     {
+
         public App()
         {
             InitializeComponent();

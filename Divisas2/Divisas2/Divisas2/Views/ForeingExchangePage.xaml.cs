@@ -15,6 +15,7 @@ namespace Divisas2.Views
         public ForeingExchangePage()
         {
             InitializeComponent();
+            NavigationPage.SetTitleIcon(this, "money.png");
         }
     }
 }

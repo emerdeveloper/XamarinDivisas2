@@ -36,13 +36,13 @@ public class MonoPackageManager {
 				String language     = locale.getLanguage () + "-" + locale.getCountry ();
 				String filesDir     = context.getFilesDir ().getAbsolutePath ();
 				String cacheDir     = context.getCacheDir ().getAbsolutePath ();
-				String dataDir      = getNativeLibraryPath (context);
+				String dataDir      = context.getApplicationInfo ().dataDir + "/lib";
 				ClassLoader loader  = context.getClassLoader ();
 
 				Runtime.init (
 						language,
 						apks,
-						getNativeLibraryPath (runtimePackage),
+						runtimePackage.dataDir + "/lib",
 						new String[]{
 							filesDir,
 							cacheDir,
@@ -67,18 +67,6 @@ public class MonoPackageManager {
 		// Ignore; vestigial
 	}
 
-	static String getNativeLibraryPath (Context context)
-	{
-	    return getNativeLibraryPath (context.getApplicationInfo ());
-	}
-
-	static String getNativeLibraryPath (ApplicationInfo ainfo)
-	{
-		if (android.os.Build.VERSION.SDK_INT >= 9)
-			return ainfo.nativeLibraryDir;
-		return ainfo.dataDir + "/lib";
-	}
-
 	public static String[] getAssemblies ()
 	{
 		return MonoPackageManager_Resources.Assemblies;
@@ -101,6 +89,12 @@ class MonoPackageManager_Resources {
 		"Divisas2.Android.dll",
 		"Divisas2.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
+		"SQLite.Net.dll",
+		"SQLite.Net.Platform.XamarinAndroid.dll",
+		"SQLiteNetExtensions.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -113,10 +107,9 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"Newtonsoft.Json.dll",
 		"GalaSoft.MvvmLight.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
+	public static final String ApiPackageName = null;
 }

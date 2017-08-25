@@ -4,7 +4,12 @@ C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Divisas2.pdb
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\GalaSoft.MvvmLight.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\GalaSoft.MvvmLight.Extras.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Mono.Android.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Newtonsoft.Json.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\SQLite.Net.dll
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\SQLiteNetExtensions.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\System.Net.Http.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\System.Net.Http.Extensions.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\System.Net.Http.Primitives.dll
@@ -17,7 +22,13 @@ C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\GalaSoft.Mvv
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\GalaSoft.MvvmLight.Extras.xml
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Mono.Android.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Mono.Android.xml
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Newtonsoft.Json.xml
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.xml
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.Abstractions.xml
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\System.Net.Http.xml
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\System.Net.Http.Extensions.xml
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\System.Net.Http.Primitives.xml
@@ -32,9 +43,3 @@ C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.App
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.Views.ForeingExchangePage.xaml.g.cs
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.dll
 C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\obj\Debug\Divisas2.pdb
-C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.Abstractions.dll
-C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.dll
-C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.pdb
-C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.xml
-C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.Abstractions.pdb
-C:\wrkspcXamarin\GitRepository\Divisas2\Divisas2\Divisas2\bin\Debug\Plugin.Connectivity.Abstractions.xml

@@ -4,40 +4,47 @@
              x:Class="Divisas2.Views.ForeingExchangePage"
              xmlns:control="clr-namespace:Divisas2.Controls" 
              Title="Divisas" 
+             Icon="money.png"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
     <!--this BindingContext Binding this page with the dictionary in App.xaml-->
     <ContentPage.Content>
-
-        <ScrollView><!--it´s to scroll in the view-->
-            <!--it´s to content the controlls o elements in my view-->
-            <StackLayout 
+        <StackLayout>
+            <ScrollView
+                IsVisible="{Binding Flag3}"
+                VerticalOptions="FillAndExpand">
+                <!--it´s to scroll in the view-->
+                <!--it´s to content the controlls o elements in my view-->
+                <StackLayout 
                 Padding="8">
-                <Label 
+                    <Label 
                     Text="Valor a convertir:">
-                </Label>
-                <Entry 
+                    </Label>
+                    <Entry 
                     Keyboard="Numeric" 
                     Text="{Binding Amount}">
-                </Entry>
-                <Label 
+                    </Entry>
+                    <Label 
                     Text="Moneda origen:">
-                </Label>
-                <control:BindablePicker 
+                    </Label>
+                    <control:BindablePicker 
                     Title="Seleccione moneda origen..." 
-                    DisplayMemberPath="Code" SelectedValuePath="TaxRate" 
+                    DisplayMemberPath="NameTaxRate" 
+                    SelectedValuePath="TaxRate" 
+                    SelectedIndex="{Binding SourceSelectedIndex}"
                     ItemsSource="{Binding Rates}" 
                     SelectedValue="{Binding Path=SourceRate, Mode=TwoWay}" 
                     HorizontalOptions="FillAndExpand" 
                     VerticalOptions="Center">
-                </control:BindablePicker>
-                <!--Quedde en la misma linea-->
-                <StackLayout
+                    </control:BindablePicker>
+                    <!--Quedde en la misma linea-->
+                    <StackLayout
                     Orientation="Horizontal">
-                    <Label 
+                        <Label 
                     Text="Modena destino:"
-                        HorizontalOptions="StartAndExpand"><!--derecha-->
-                    </Label>
-                    <!--<Button 
+                        HorizontalOptions="StartAndExpand">
+                            <!--derecha-->
+                        </Label>
+                        <!--<Button 
                     Command="{Binding InvertCommand}" 
                     IsEnabled="{Binding IsEnabled}" 
                         HorizontalOptions="End"
@@ -47,27 +54,29 @@
                     HeightRequest="40" 
                     BorderRadius="20">
                     </Button>-->
-                    <Image
+                        <Image
                         Source="Shuffle.png"
                         HorizontalOptions="End">
-                        <Image.GestureRecognizers><!--Evento-->
-                            <TapGestureRecognizer
+                            <Image.GestureRecognizers>
+                                <!--Evento-->
+                                <TapGestureRecognizer
                                 Command="{Binding InvertCommand}">
-                            </TapGestureRecognizer>
-                        </Image.GestureRecognizers>
-                    </Image>
-                </StackLayout>
+                                </TapGestureRecognizer>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
 
-                <control:BindablePicker 
+                    <control:BindablePicker 
                     Title="Seleccione moneda destino..." 
-                    DisplayMemberPath="Code" 
+                    DisplayMemberPath="NameTaxRate" 
                     SelectedValuePath="TaxRate" 
                     ItemsSource="{Binding Rates}" 
+                    SelectedIndex="{Binding TargetSelectedIndex}"
                     SelectedValue="{Binding Path=TargetRate, Mode=TwoWay}" 
                     HorizontalOptions="FillAndExpand" 
                     VerticalOptions="Center">
-                </control:BindablePicker>
-                <Button 
+                    </control:BindablePicker>
+                    <Button 
                     Command="{Binding ConvertCommand}" 
                     IsEnabled="{Binding IsEnabled}" 
                     Text="Convertir" 
@@ -75,11 +84,11 @@
                     TextColor="White" 
                     HeightRequest="40" 
                     BorderRadius="20">
-                </Button>
-                <ActivityIndicator 
+                    </Button>
+                    <ActivityIndicator 
                     IsRunning="{Binding IsRunning}">
-                </ActivityIndicator>
-                <Label 
+                    </ActivityIndicator>
+                    <Label 
                     Text="{Binding Message}" 
                     BackgroundColor="Silver" 
                     TextColor="Purple" 
@@ -88,11 +97,28 @@
                     VerticalTextAlignment="Center" 
                     HorizontalOptions="FillAndExpand" 
                     VerticalOptions="FillAndExpand">
-                </Label>
+                    </Label>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout 
+                IsVisible="{Binding Flag2}"
+                Orientation="Horizontal" 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand">
+                <Image
+                    Source="offline.png">
+                </Image>
             </StackLayout>
-
-        </ScrollView>
-        
+            <StackLayout 
+                IsVisible="{Binding Flag}"
+                Orientation="Horizontal" 
+                VerticalOptions="End"
+                HeightRequest="50"
+                BackgroundColor="#37474f">
+                <Label
+                    TextColor="White"
+                    FontSize="Medium">No hay conexión a Internet</Label>
+            </StackLayout>
+        </StackLayout>
     </ContentPage.Content>
-    
 </ContentPage>

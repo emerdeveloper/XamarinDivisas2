@@ -2544,23 +2544,25 @@ containing a value of this type.
         public static final int ic_tv_dark=0x7f02008f;
         public static final int ic_tv_light=0x7f020090;
         public static final int icon=0x7f020091;
-        public static final int mr_dialog_material_background_dark=0x7f020092;
-        public static final int mr_dialog_material_background_light=0x7f020093;
-        public static final int mr_ic_audiotrack_light=0x7f020094;
-        public static final int mr_ic_cast_dark=0x7f020095;
-        public static final int mr_ic_cast_light=0x7f020096;
-        public static final int mr_ic_close_dark=0x7f020097;
-        public static final int mr_ic_close_light=0x7f020098;
-        public static final int mr_ic_media_route_connecting_mono_dark=0x7f020099;
-        public static final int mr_ic_media_route_connecting_mono_light=0x7f02009a;
-        public static final int mr_ic_media_route_mono_dark=0x7f02009b;
-        public static final int mr_ic_media_route_mono_light=0x7f02009c;
-        public static final int mr_ic_pause_dark=0x7f02009d;
-        public static final int mr_ic_pause_light=0x7f02009e;
-        public static final int mr_ic_play_dark=0x7f02009f;
-        public static final int mr_ic_play_light=0x7f0200a0;
-        public static final int notification_template_icon_bg=0x7f0200a2;
-        public static final int shuffle=0x7f0200a1;
+        public static final int money=0x7f020092;
+        public static final int mr_dialog_material_background_dark=0x7f020093;
+        public static final int mr_dialog_material_background_light=0x7f020094;
+        public static final int mr_ic_audiotrack_light=0x7f020095;
+        public static final int mr_ic_cast_dark=0x7f020096;
+        public static final int mr_ic_cast_light=0x7f020097;
+        public static final int mr_ic_close_dark=0x7f020098;
+        public static final int mr_ic_close_light=0x7f020099;
+        public static final int mr_ic_media_route_connecting_mono_dark=0x7f02009a;
+        public static final int mr_ic_media_route_connecting_mono_light=0x7f02009b;
+        public static final int mr_ic_media_route_mono_dark=0x7f02009c;
+        public static final int mr_ic_media_route_mono_light=0x7f02009d;
+        public static final int mr_ic_pause_dark=0x7f02009e;
+        public static final int mr_ic_pause_light=0x7f02009f;
+        public static final int mr_ic_play_dark=0x7f0200a0;
+        public static final int mr_ic_play_light=0x7f0200a1;
+        public static final int notification_template_icon_bg=0x7f0200a4;
+        public static final int offline=0x7f0200a2;
+        public static final int shuffle=0x7f0200a3;
     }
     public static final class id {
         public static final int action0=0x7f07008b;
@@ -2794,6 +2796,8 @@ containing a value of this type.
         public static final int toolbar=0x7f030038;
     }
     public static final class string {
+        public static final int ApplicationName=0x7f080027;
+        public static final int Hello=0x7f080026;
         public static final int abc_action_bar_home_description=0x7f08000f;
         public static final int abc_action_bar_home_description_format=0x7f080010;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f080011;
